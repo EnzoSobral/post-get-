@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/cadastrar" method="post">
+<!--nome do jogador-->
+
+<label for="nome">nome</label>
+<input type="text" name="nome">
+<br>
+
+<!--link da foto-->
+<label for="foto">link foto</label>
+<input type="text" name="foto">
+<br>
+
+<!--Descrição da foto-->
+<label for="descricao">Descrição</label>
+<textarea name="descricao"></textarea>
+<br>
+
+<label for="nivel">Nível</label>
+<select name="">
+<option value="lendario">lendario</option>
+<option value="raro">raro</option>
+<option value="comum">comum</option>
+</select><br>
+
+<!--Cadastrar ou limpar-->
+<button type="reset">limpar</button>
+<button type="submit">Cadastrar</button>
+    </form>
+    
+</body>
+</html>

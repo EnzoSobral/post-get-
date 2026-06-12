@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.fig{
+    border-radius: 20px;
+    width: 320px;
+    padding: 5px;
+    border: 1px solid black;
+    flex-direction: column;
+
+}
+
+
+.fig img{
+
+    width: 100%;
+}
